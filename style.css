@@ -1,0 +1,73 @@
+div {
+  border: 2px solid rgb(8, 134, 134); /* desenha uma borda */
+  padding: 10px;
+}
+
+.avatar {
+  display: flex; /* modo de exibicao flexivel */
+  flex-direction: column; /* um em baixo do outro */
+  gap: 10px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.sidebar-left {
+  flex: 0,5;
+  flex: 1;
+  background-color: #E3F1DA;
+}
+
+.main {
+  flex: 3;
+  background-color: white;
+}
+
+.sidebar-right {
+  flex: 1;
+  background-color:rgb(184, 216, 245);
+   flex: 1;
+  background-color: #FDE3D8;
+}
+
+img {
+  max-width: 100%; /* pra imagem nao estourar fora da margem */
+}
+
+
+a{
+  color: red;
+}
+
+#corLink{
+  color: blue;
+}
+.sidebar-right p {
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+body {
+  background-color: #FFF6E0;
+}
+.header {
+  background-color: #1E6FB8;
+  color: white;
+}
+h2 {
+  color: #1E6FB8;
+}
+
+a {
+  color: #B83A12;
+}
+
+a:hover {
+  color: #1E6FB8;
+}
+.footer {
+  background-color: #4F7F3A;
+  color: white;
+}
